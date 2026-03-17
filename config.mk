@@ -12,12 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-BUILD_PATH := packages/apps/ViperFX
+BUILD_PATH := packages/apps/Viper4android
 
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += \
    $(BUILD_PATH)
 
 PRODUCT_PACKAGES += \
-    ViperFX \
+    Viper4android \
     libv4a_re
