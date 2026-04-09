@@ -3,14 +3,13 @@ soong_namespace {
 
 android_app_import {
     name: "Viper4android",
-    apk: "system-ext/app/Viper4android/Viper4android.apk",
+    apk: "system/app/Viper4android/Viper4android.apk",
     presigned: true,
     preprocessed: true,
     dex_preopt: {
          enabled: false,
     },
     overrides: ["AudioFX"],
-    system_ext_specific: true,
     optional_uses_libs: [
         "androidx.window.extensions",
         "androidx.window.sidecar",
